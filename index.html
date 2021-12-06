@@ -25,58 +25,64 @@
     .bgcolor {
       background-color: hsl(225, 100%, 94%);
     }
+
     .planbg {
       background-color: hsl(225, 100%, 98%);
     }
-.button {
-  background-color: hsl(245, 75%, 52%);
-}
+
+    .button {
+      background-color: hsl(245, 75%, 52%);
+    }
   </style>
 </head>
 
-<body style="background-image: url(./images/pattern-background-desktop.svg); background-repeat: no-repeat;" class="bgcolor">
-  <div class="flex justify-center items-center">
-  <div class="w-full max-w-md max-h-min px-5 py-14">
-  <div class=" flex flex-col justify-between items-center space-y-5 bg-white rounded-xl">
-    <div class="">
-      <img src="./images/illustration-hero.svg" alt="illustration-hero" class="rounded-t-xl">
-    </div>
-    <div><h1 class="text-2xl font-bold">Order Summary</h1></div>
-    <div><p class="text-center text-md px-10 text-gray-500">You can now listen to millions of songs, audiobooks, and podcasts on any
-      device anywhere you like!</p></div>
-    <div class="planbg p-3 rounded-lg">
-      
-      <div class="flex flex-row justify-between items-center">
-      <div class="flex">
-        <img src="./images/icon-music.svg" alt="">
-        <div class="ml-4 mr-10">
-          <p>Annual Plan</p>
-          <p>$59.99/year</p>
+<body
+  style="background-image: url(./images/pattern-background-desktop.svg); background-repeat: no-repeat; background-size: contain;"
+  class="bgcolor">
+  <main>
+    <div class="flex justify-center items-center">
+      <div class="w-full max-w-md px-5 py-14">
+        <div class=" flex flex-col justify-between items-center space-y-5 bg-white rounded-xl">
+          <div class="">
+            <img src="./images/illustration-hero.svg" alt="illustration-hero" class="rounded-t-xl">
+          </div>
+          <div>
+            <h1 class="text-2xl font-bold">Order Summary</h1>
+          </div>
+          <div>
+            <p class="text-center text-md px-10 text-gray-500">You can now listen to millions of songs, audiobooks, and
+              podcasts on any
+              device anywhere you like!</p>
+          </div>
+          <div class="planbg p-3 rounded-lg">
+
+            <div class="flex flex-row justify-between items-center">
+              <div class="flex">
+                <img src="./images/icon-music.svg" alt="">
+                <div class="ml-4 mr-10">
+                  <p>Annual Plan</p>
+                  <p>$59.99/year</p>
+                </div>
+              </div>
+              <div><a href="#"
+                  class="font-medium text-blue-800 underline hover:no-underline hover:text-purple-500">Change</a> </div>
+            </div>
+          </div>
+          <div
+            class="shadow-xl button text-lg font-medium text-white px-12 py-2 rounded-lg hover:bg-purple-700 cursor-pointer">
+            Proceed to Payment</div>
+          <div class="pb-5 font-bold text-gray-500 hover:text-gray-700 cursor-pointer">Cancel Order</div>
         </div>
-</div> 
-      <div><a href="#" class="font-medium text-blue-800 underline hover:no-underline hover:text-purple-500">Change</a> </div>
+      </div>
     </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/sachinshelke7">SACHIN SHELKE</a>.
     </div>
-    <div class="shadow-xl button text-lg font-medium text-white px-12 py-2 rounded-lg hover:bg-purple-700 cursor-pointer">Proceed to Payment</div>
-    <div class="pb-5 font-bold text-gray-500 hover:text-gray-700 cursor-pointer">Cancel Order</div>
-  </div>
-</div>
-</div>
-  
+  </footer>
 
-  
-
-
-
-  
-
-  
-  
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://github.com/sachinshelke7">SACHIN SHELKE</a>.
-  </div>
 </body>
 
 </html>
